@@ -1,0 +1,63 @@
+<!-- WT Internals Samarth M N 1NT18IS133 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 10px;
+        font-size: 28px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #submit,
+      #submit-via,
+      #submit-route-data {
+        background-color: #4285f4;
+        color: whitesmoke;
+        border: 0px;
+        border-radius: 0.3rem;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>NMIT BUS ROUTES</h2>
+    <h6>(Check if buses are available for your area)</h6>
+    <label>Name Of Area</label>
+    <input type="text" placeholder="Area name" id="input" />
+    <br /><br />
+    <input type="submit" id="submit" /><br /><br />
+    <div id="sresult"></div>
+
+    <hr />
+    <hr />
+
+    <br /><br />
+    <h2>Add Buss Route Details</h2>
+    <label>Buss route no:</label>
+    <input type="text" placeholder="Enter route no" id="add-route-no" />
+    <br /><br />
+
+    <label>via :</label>
+    <input type="text" placeholder="Enter via" id="add-route-via" />
+    <input type="submit" value="Add via" id="submit-via" />
+    <br /><br />
+
+    <label>Buss driver name:</label>
+    <input type="text" placeholder="Enter Driver name" id="add-driver-name" />
+    <br /><br />
+
+    <label>Buss driver contact No:</label>
+    <input type="text" placeholder="Enter Driver ph no" id="add-driver-no" />
+    <br /><br />
+
+    <input type="submit" id="submit-route-data" />
+
+    <script src="index.js"></script>
+  </body>
+</html>
